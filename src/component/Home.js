@@ -9,27 +9,27 @@ const Home = () => {
             <div className="left w-1/2">
               <div className="title w-full float-left mb-[21px]">
                 <h3 className="font-extrabold text-[60px] leading-[70px]">
-                  Hi, I'm <span className="text-blue-color">Elisc!</span>
+                  Hi, I'm <span className="text-blue-color">Zain!</span>
                 </h3>
-                <h3 className="font-extrabold text-[60px] leading-[70px]">
+                <h4 className="font-extrabold text-[60px] leading-[70px]">
                   <span className="cd-headline clip">
-                    <span className="blc">Creative</span>
+                    {/* <span className="blc">Innovative &nbsp;</span> */}
                     <span className="cd-words-wrapper">
-                      <b className="is-visible">Designer</b>
-                      <b>Coder</b>
-                      <b>Player</b>
+                      <b className="is-visible">Solutions Architect</b>
+                      <b>DevOps Engineer</b>
+                      <b>Web Dev</b>
                     </span>
                   </span>
-                </h3>
+                </h4>
+                <br />
                 <h3 className="font-extrabold text-[60px] leading-[70px]">
-                  Based in Florida
+                  Based in Pakistan
                 </h3>
               </div>
               <div className="subtitle wfll max-w-[80%] float-left mb-[40px]">
                 <p>
-                  I'm a Florida based web designer &amp; front‑end developer
-                  with <span className="text-blue-color">10+ years</span> of
-                  experience
+                  I'm a Pakistan-based Software Engineer with a robust
+                  background in DevOps.
                 </p>
               </div>
               <div className="buttons w-full float-left flex items-center mb-[150px]">
@@ -45,20 +45,20 @@ const Home = () => {
               </div>
               <div className="info w-full float-left">
                 <ul className="relative">
-                  <li className="pl-[15px]">
+                  {/* <li className="pl-[15px]">
                     <a
                       className="text-[#130F49] font-semibold text-[18px]"
                       href="tel:+77 022 444 05 05"
                     >
-                      +77 022 444 05 05
+                      +92
                     </a>
-                  </li>
+                  </li> */}
                   <li className="pl-[15px]">
                     <a
                       className="text-[#130F49] font-semibold text-[18px]"
-                      href="mailto:support@elisc.com"
+                      href="mailto:zainulebadd@gmail.com"
                     >
-                      support@elisc.com
+                      zainulebadd@gmail.com
                     </a>
                   </li>
                   <li className="pl-[15px]">
@@ -66,7 +66,7 @@ const Home = () => {
                       className="href_location text-[#130F49] font-semibold text-[18px]"
                       href="#/"
                     >
-                      Ave Street Avenue, New York
+                      Overseas 2 Phase#8 Bahria Islamabad
                     </a>
                   </li>
                 </ul>

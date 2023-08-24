@@ -63,15 +63,17 @@ const About = () => {
                   <li className="mr-[40px] mb-[20px] inline-block">
                     <span className="block uppercase underline">Mail</span>
                     <span className="block font-inter font-bold text-dark-color">
-                      <a href="mailto:support@elisc.com">support@elisc.com</a>
+                      <a href="mailto:zainulebadd@gmail.com">
+                        zainulebadd@gmail.com
+                      </a>
                     </span>
                   </li>
-                  <li className="mr-[40px] mb-[20px] inline-block">
+                  {/* <li className="mr-[40px] mb-[20px] inline-block">
                     <span className="block uppercase underline">Phone</span>
                     <span className="block font-inter font-bold text-dark-color">
                       <a href="tel:+77 022 444 05 05">+77 022 444 05 05</a>
                     </span>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>

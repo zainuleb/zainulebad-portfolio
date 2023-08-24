@@ -23,19 +23,19 @@ const Contact = () => {
               <div className="info w-full float-left">
                 <ul>
                   <li className="mb-[8px] w-full float-left">
-                    <a
+                    {/* <a
                       className="text-dark-color font-semibold font-inter inline-block relative"
                       href="tel:+77 022 444 05 05"
                     >
                       +77 022 444 05 05
-                    </a>
+                    </a> */}
                   </li>
                   <li className="mb-[8px] w-full float-left">
                     <a
                       className="text-dark-color font-semibold font-inter inline-block relative"
-                      href="mailto:support@elisc.com"
+                      href="mailto:zainulebadd@gmail.com"
                     >
-                      support@elisc.com
+                      zainulebadd@gmail.com
                     </a>
                   </li>
                   <li className="w-full float-left">
@@ -43,7 +43,7 @@ const Contact = () => {
                       className="href_location text-dark-color font-semibold font-inter inline-block relative"
                       href="#/"
                     >
-                      Ave Street Avenue, New York
+                      Overseas 2 Phase 8 Bahria Islamabad
                     </a>
                   </li>
                 </ul>

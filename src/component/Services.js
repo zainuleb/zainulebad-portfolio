@@ -12,7 +12,7 @@ const Services = () => {
               </span>
               <h3 className="text-[40px] font-extrabold">My Services</h3>
             </div>
-            <a href="mailto:support@elisc.com">support@elisc.com</a>
+            <a href="mailto:zainulebadd@gmail.com">zainulebadd@gmail.com</a>
           </div>
           <div className="service_list w-full float-left mt-[40px] mb-[50px]">
             <ul className="ml-[-30px] flex flex-wrap">
