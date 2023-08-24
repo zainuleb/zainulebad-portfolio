@@ -2,59 +2,61 @@ import React from "react";
 
 const News = () => {
   return (
-    <div class="elisc_tm_section" id="news">
-      <div class="elisc_tm_news fn_w_sminiboxes w-full float-left py-[120px] px-0">
-        <div class="tm_content w-full max-w-[1250px] h-auto clear-both my-0 mx-auto py-0 px-[20px]">
-          <div class="wrapper w-full flex justify-between">
-            <div class="left fn_w_sminibox w-1/3 pr-[50px]">
-              <div class="elisc_tm_sticky_section">
-                <div class="elisc_tm_title w-full float-left">
-                  <span class="w-full float-left font-medium uppercase inline-block mb-[12px]">
+    <div className="elisc_tm_section" id="news">
+      <div className="elisc_tm_news fn_w_sminiboxes w-full float-left py-[120px] px-0">
+        <div className="tm_content w-full max-w-[1250px] h-auto clear-both my-0 mx-auto py-0 px-[20px]">
+          <div className="wrapper w-full flex justify-between">
+            <div className="left fn_w_sminibox w-1/3 pr-[50px]">
+              <div className="elisc_tm_sticky_section">
+                <div className="elisc_tm_title w-full float-left">
+                  <span className="w-full float-left font-medium uppercase inline-block mb-[12px]">
                     - Blog
                   </span>
-                  <h3 class="text-[40px] font-extrabold">My blog &amp; news</h3>
+                  <h3 className="text-[40px] font-extrabold">
+                    My blog &amp; news
+                  </h3>
                 </div>
-                <div class="elisc_tm_button transition_link mt-[45px]">
+                <div className="elisc_tm_button transition_link mt-[45px]">
                   <a href="#contact">Get in touch</a>
                 </div>
               </div>
             </div>
-            <div class="right fn_w_sminibox w-[66.6666%] pl-[50px]">
-              <div class="elisc_tm_sticky_section">
-                <div class="list w-full float-left relative">
+            <div className="right fn_w_sminibox w-[66.6666%] pl-[50px]">
+              <div className="elisc_tm_sticky_section">
+                <div className="list w-full float-left relative">
                   <ul>
-                    <li class="mb-[40px] w-full float-left">
+                    <li className="mb-[40px] w-full float-left">
                       <img
-                        class="popup_image"
+                        className="popup_image"
                         src="assets/img/news/1.jpg"
                         alt=""
                       />
-                      <div class="list_inner w-full float-left relative flex items-center justify-between">
-                        <div class="info w-1/2">
-                          <div class="meta w-full float-left flex items-center mb-[12px]">
+                      <div className="list_inner w-full float-left relative flex items-center justify-between">
+                        <div className="info w-1/2">
+                          <div className="meta w-full float-left flex items-center mb-[12px]">
                             <img
-                              class="svg w-[18px] h-[18px]"
+                              className="svg w-[18px] h-[18px]"
                               src="assets/img/svg/calendar.svg"
                               alt=""
                             />{" "}
-                            <span class="font-medium pl-[8px]">
+                            <span className="font-medium pl-[8px]">
                               April 12, 2023
                             </span>
                           </div>
-                          <div class="title w-full float-left">
-                            <h3 class="text-[#130F49] text-[28px] font-semibold leading-[36px]">
-                              <a href="#">
+                          <div className="title w-full float-left">
+                            <h3 className="text-[#130F49] text-[28px] font-semibold leading-[36px]">
+                              <a href="#/">
                                 12 unique examples of portfolio websites
                               </a>
                             </h3>
                           </div>
                         </div>
-                        <div class="elisc_tm_read_more w-auto">
-                          <a class="line_effect" href="#">
+                        <div className="elisc_tm_read_more w-auto">
+                          <a className="line_effect" href="#/">
                             Learn More
-                            <span class="inline-block">
+                            <span className="inline-block">
                               <img
-                                class="svg"
+                                className="svg"
                                 src="assets/img/svg/rightArrow.svg"
                                 alt=""
                               />
@@ -62,9 +64,9 @@ const News = () => {
                           </a>
                         </div>
 
-                        <div class="news_hidden_details">
-                          <div class="news_popup_informations">
-                            <div class="text">
+                        <div className="news_hidden_details">
+                          <div className="news_popup_informations">
+                            <div className="text">
                               <p>
                                 Elisc is a leading web design agency with an
                                 award-winning design team that creates
@@ -96,38 +98,38 @@ const News = () => {
                         </div>
                       </div>
                     </li>
-                    <li class="mb-[40px] w-full float-left">
+                    <li className="mb-[40px] w-full float-left">
                       <img
-                        class="popup_image"
+                        className="popup_image"
                         src="assets/img/news/2.jpg"
                         alt=""
                       />
-                      <div class="list_inner w-full float-left relative flex items-center justify-between">
-                        <div class="info w-1/2">
-                          <div class="meta w-full float-left flex items-center mb-[12px]">
+                      <div className="list_inner w-full float-left relative flex items-center justify-between">
+                        <div className="info w-1/2">
+                          <div className="meta w-full float-left flex items-center mb-[12px]">
                             <img
-                              class="svg w-[18px] h-[18px]"
+                              className="svg w-[18px] h-[18px]"
                               src="assets/img/svg/calendar.svg"
                               alt=""
                             />{" "}
-                            <span class="font-medium pl-[8px]">
+                            <span className="font-medium pl-[8px]">
                               April 01, 2023
                             </span>
                           </div>
-                          <div class="title w-full float-left">
-                            <h3 class="text-[#130F49] text-[28px] font-semibold leading-[36px]">
-                              <a href="#">
+                          <div className="title w-full float-left">
+                            <h3 className="text-[#130F49] text-[28px] font-semibold leading-[36px]">
+                              <a href="#/">
                                 Dealing with spring allergy symptoms
                               </a>
                             </h3>
                           </div>
                         </div>
-                        <div class="elisc_tm_read_more w-auto">
-                          <a class="line_effect" href="#">
+                        <div className="elisc_tm_read_more w-auto">
+                          <a className="line_effect" href="#/">
                             Learn More
-                            <span class="inline-block">
+                            <span className="inline-block">
                               <img
-                                class="svg"
+                                className="svg"
                                 src="assets/img/svg/rightArrow.svg"
                                 alt=""
                               />
@@ -135,9 +137,9 @@ const News = () => {
                           </a>
                         </div>
 
-                        <div class="news_hidden_details">
-                          <div class="news_popup_informations">
-                            <div class="text">
+                        <div className="news_hidden_details">
+                          <div className="news_popup_informations">
+                            <div className="text">
                               <p>
                                 Elisc is a leading web design agency with an
                                 award-winning design team that creates
@@ -169,36 +171,36 @@ const News = () => {
                         </div>
                       </div>
                     </li>
-                    <li class="mb-[40px] w-full float-left">
+                    <li className="mb-[40px] w-full float-left">
                       <img
-                        class="popup_image"
+                        className="popup_image"
                         src="assets/img/news/3.jpg"
                         alt=""
                       />
-                      <div class="list_inner w-full float-left relative flex items-center justify-between">
-                        <div class="info w-1/2">
-                          <div class="meta w-full float-left flex items-center mb-[12px]">
+                      <div className="list_inner w-full float-left relative flex items-center justify-between">
+                        <div className="info w-1/2">
+                          <div className="meta w-full float-left flex items-center mb-[12px]">
                             <img
-                              class="svg w-[18px] h-[18px]"
+                              className="svg w-[18px] h-[18px]"
                               src="assets/img/svg/calendar.svg"
                               alt=""
                             />{" "}
-                            <span class="font-medium pl-[8px]">
+                            <span className="font-medium pl-[8px]">
                               March 30, 2023
                             </span>
                           </div>
-                          <div class="title w-full float-left">
-                            <h3 class="text-[#130F49] text-[28px] font-semibold leading-[36px]">
-                              <a href="#">Why we should read fewer books</a>
+                          <div className="title w-full float-left">
+                            <h3 className="text-[#130F49] text-[28px] font-semibold leading-[36px]">
+                              <a href="#/">Why we should read fewer books</a>
                             </h3>
                           </div>
                         </div>
-                        <div class="elisc_tm_read_more w-auto">
-                          <a class="line_effect" href="#">
+                        <div className="elisc_tm_read_more w-auto">
+                          <a className="line_effect" href="#/">
                             Learn More
-                            <span class="inline-block">
+                            <span className="inline-block">
                               <img
-                                class="svg"
+                                className="svg"
                                 src="assets/img/svg/rightArrow.svg"
                                 alt=""
                               />
@@ -206,9 +208,9 @@ const News = () => {
                           </a>
                         </div>
 
-                        <div class="news_hidden_details">
-                          <div class="news_popup_informations">
-                            <div class="text">
+                        <div className="news_hidden_details">
+                          <div className="news_popup_informations">
+                            <div className="text">
                               <p>
                                 Elisc is a leading web design agency with an
                                 award-winning design team that creates
@@ -240,38 +242,38 @@ const News = () => {
                         </div>
                       </div>
                     </li>
-                    <li class="mb-[40px] w-full float-left">
+                    <li className="mb-[40px] w-full float-left">
                       <img
-                        class="popup_image"
+                        className="popup_image"
                         src="assets/img/news/4.jpg"
                         alt=""
                       />
-                      <div class="list_inner w-full float-left relative flex items-center justify-between">
-                        <div class="info w-1/2">
-                          <div class="meta w-full float-left flex items-center mb-[12px]">
+                      <div className="list_inner w-full float-left relative flex items-center justify-between">
+                        <div className="info w-1/2">
+                          <div className="meta w-full float-left flex items-center mb-[12px]">
                             <img
-                              class="svg w-[18px] h-[18px]"
+                              className="svg w-[18px] h-[18px]"
                               src="assets/img/svg/calendar.svg"
                               alt=""
                             />{" "}
-                            <span class="font-medium pl-[8px]">
+                            <span className="font-medium pl-[8px]">
                               March 15, 2023
                             </span>
                           </div>
-                          <div class="title w-full float-left">
-                            <h3 class="text-[#130F49] text-[28px] font-semibold leading-[36px]">
-                              <a href="#">
+                          <div className="title w-full float-left">
+                            <h3 className="text-[#130F49] text-[28px] font-semibold leading-[36px]">
+                              <a href="#/">
                                 Skills and tools for efficient web design
                               </a>
                             </h3>
                           </div>
                         </div>
-                        <div class="elisc_tm_read_more w-auto">
-                          <a class="line_effect" href="#">
+                        <div className="elisc_tm_read_more w-auto">
+                          <a className="line_effect" href="#/">
                             Learn More
-                            <span class="inline-block">
+                            <span className="inline-block">
                               <img
-                                class="svg"
+                                className="svg"
                                 src="assets/img/svg/rightArrow.svg"
                                 alt=""
                               />
@@ -279,9 +281,9 @@ const News = () => {
                           </a>
                         </div>
 
-                        <div class="news_hidden_details">
-                          <div class="news_popup_informations">
-                            <div class="text">
+                        <div className="news_hidden_details">
+                          <div className="news_popup_informations">
+                            <div className="text">
                               <p>
                                 Elisc is a leading web design agency with an
                                 award-winning design team that creates
@@ -313,36 +315,38 @@ const News = () => {
                         </div>
                       </div>
                     </li>
-                    <li class="mb-[40px] w-full float-left">
+                    <li className="mb-[40px] w-full float-left">
                       <img
-                        class="popup_image"
+                        className="popup_image"
                         src="assets/img/news/5.jpg"
                         alt=""
                       />
-                      <div class="list_inner w-full float-left relative flex items-center justify-between">
-                        <div class="info w-1/2">
-                          <div class="meta w-full float-left flex items-center mb-[12px]">
+                      <div className="list_inner w-full float-left relative flex items-center justify-between">
+                        <div className="info w-1/2">
+                          <div className="meta w-full float-left flex items-center mb-[12px]">
                             <img
-                              class="svg w-[18px] h-[18px]"
+                              className="svg w-[18px] h-[18px]"
                               src="assets/img/svg/calendar.svg"
                               alt=""
                             />{" "}
-                            <span class="font-medium pl-[8px]">
+                            <span className="font-medium pl-[8px]">
                               Feb 20, 2023
                             </span>
                           </div>
-                          <div class="title w-full float-left">
-                            <h3 class="text-[#130F49] text-[28px] font-semibold leading-[36px]">
-                              <a href="#">How to use python for web scraping</a>
+                          <div className="title w-full float-left">
+                            <h3 className="text-[#130F49] text-[28px] font-semibold leading-[36px]">
+                              <a href="#/">
+                                How to use python for web scraping
+                              </a>
                             </h3>
                           </div>
                         </div>
-                        <div class="elisc_tm_read_more w-auto">
-                          <a class="line_effect" href="#">
+                        <div className="elisc_tm_read_more w-auto">
+                          <a className="line_effect" href="#/">
                             Learn More
-                            <span class="inline-block">
+                            <span className="inline-block">
                               <img
-                                class="svg"
+                                className="svg"
                                 src="assets/img/svg/rightArrow.svg"
                                 alt=""
                               />
@@ -350,9 +354,9 @@ const News = () => {
                           </a>
                         </div>
 
-                        <div class="news_hidden_details">
-                          <div class="news_popup_informations">
-                            <div class="text">
+                        <div className="news_hidden_details">
+                          <div className="news_popup_informations">
+                            <div className="text">
                               <p>
                                 Elisc is a leading web design agency with an
                                 award-winning design team that creates
@@ -384,38 +388,38 @@ const News = () => {
                         </div>
                       </div>
                     </li>
-                    <li class="mb-[40px] w-full float-left">
+                    <li className="mb-[40px] w-full float-left">
                       <img
-                        class="popup_image"
+                        className="popup_image"
                         src="assets/img/news/6.jpg"
                         alt=""
                       />
-                      <div class="list_inner w-full float-left relative flex items-center justify-between">
-                        <div class="info w-1/2">
-                          <div class="meta w-full float-left flex items-center mb-[12px]">
+                      <div className="list_inner w-full float-left relative flex items-center justify-between">
+                        <div className="info w-1/2">
+                          <div className="meta w-full float-left flex items-center mb-[12px]">
                             <img
-                              class="svg w-[18px] h-[18px]"
+                              className="svg w-[18px] h-[18px]"
                               src="assets/img/svg/calendar.svg"
                               alt=""
                             />{" "}
-                            <span class="font-medium pl-[8px]">
+                            <span className="font-medium pl-[8px]">
                               Feb 11, 2023
                             </span>
                           </div>
-                          <div class="title w-full float-left">
-                            <h3 class="text-[#130F49] text-[28px] font-semibold leading-[36px]">
-                              <a href="#">
+                          <div className="title w-full float-left">
+                            <h3 className="text-[#130F49] text-[28px] font-semibold leading-[36px]">
+                              <a href="#/">
                                 Best wireframe tools for web designers
                               </a>
                             </h3>
                           </div>
                         </div>
-                        <div class="elisc_tm_read_more w-auto">
-                          <a class="line_effect" href="#">
+                        <div className="elisc_tm_read_more w-auto">
+                          <a className="line_effect" href="#/">
                             Learn More
-                            <span class="inline-block">
+                            <span className="inline-block">
                               <img
-                                class="svg"
+                                className="svg"
                                 src="assets/img/svg/rightArrow.svg"
                                 alt=""
                               />
@@ -423,9 +427,9 @@ const News = () => {
                           </a>
                         </div>
 
-                        <div class="news_hidden_details">
-                          <div class="news_popup_informations">
-                            <div class="text">
+                        <div className="news_hidden_details">
+                          <div className="news_popup_informations">
+                            <div className="text">
                               <p>
                                 Elisc is a leading web design agency with an
                                 award-winning design team that creates
@@ -457,36 +461,36 @@ const News = () => {
                         </div>
                       </div>
                     </li>
-                    <li class="w-full float-left">
+                    <li className="w-full float-left">
                       <img
-                        class="popup_image"
+                        className="popup_image"
                         src="assets/img/news/7.jpg"
                         alt=""
                       />
-                      <div class="list_inner w-full float-left relative flex items-center justify-between">
-                        <div class="info w-1/2">
-                          <div class="meta w-full float-left flex items-center mb-[12px]">
+                      <div className="list_inner w-full float-left relative flex items-center justify-between">
+                        <div className="info w-1/2">
+                          <div className="meta w-full float-left flex items-center mb-[12px]">
                             <img
-                              class="svg w-[18px] h-[18px]"
+                              className="svg w-[18px] h-[18px]"
                               src="assets/img/svg/calendar.svg"
                               alt=""
                             />{" "}
-                            <span class="font-medium pl-[8px]">
+                            <span className="font-medium pl-[8px]">
                               Jan 31, 2023
                             </span>
                           </div>
-                          <div class="title w-full float-left">
-                            <h3 class="text-[#130F49] text-[28px] font-semibold leading-[36px]">
-                              <a href="#">Why we’re crazy about animations</a>
+                          <div className="title w-full float-left">
+                            <h3 className="text-[#130F49] text-[28px] font-semibold leading-[36px]">
+                              <a href="#/">Why we’re crazy about animations</a>
                             </h3>
                           </div>
                         </div>
-                        <div class="elisc_tm_read_more w-auto">
-                          <a class="line_effect" href="#">
+                        <div className="elisc_tm_read_more w-auto">
+                          <a className="line_effect" href="#/">
                             Learn More
-                            <span class="inline-block">
+                            <span className="inline-block">
                               <img
-                                class="svg"
+                                className="svg"
                                 src="assets/img/svg/rightArrow.svg"
                                 alt=""
                               />
@@ -494,9 +498,9 @@ const News = () => {
                           </a>
                         </div>
 
-                        <div class="news_hidden_details">
-                          <div class="news_popup_informations">
-                            <div class="text">
+                        <div className="news_hidden_details">
+                          <div className="news_popup_informations">
+                            <div className="text">
                               <p>
                                 Elisc is a leading web design agency with an
                                 award-winning design team that creates
