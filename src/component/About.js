@@ -55,7 +55,7 @@ const About = () => {
                   <li className="mr-[40px] mb-[20px] inline-block">
                     <span className="block uppercase underline">Born In</span>
                     <span className="block font-inter font-bold text-dark-color">
-                      <a className="href_location" href="#/">
+                      <a className="href_location" href="#stuff">
                         Florida, USA
                       </a>
                     </span>
@@ -146,7 +146,7 @@ const About = () => {
                     </div>
                     <a
                       className="elisc_tm_full_link absolute inset-0 z-[5]"
-                      href="#/"
+                      href="#stff"
                     ></a>
 
                     <div className="hidden_details">
@@ -208,7 +208,7 @@ const About = () => {
                     </div>
                     <a
                       className="elisc_tm_full_link absolute inset-0 z-[5]"
-                      href="#/"
+                      href="#stuff"
                     ></a>
 
                     <div className="hidden_details">
@@ -270,7 +270,7 @@ const About = () => {
                     </div>
                     <a
                       className="elisc_tm_full_link absolute inset-0 z-[5]"
-                      href="#/"
+                      href="#stuff"
                     ></a>
 
                     <div className="hidden_details">
@@ -332,7 +332,7 @@ const About = () => {
                     </div>
                     <a
                       className="elisc_tm_full_link absolute inset-0 z-[5]"
-                      href="#/"
+                      href="#stuff"
                     ></a>
 
                     <div className="hidden_details">
