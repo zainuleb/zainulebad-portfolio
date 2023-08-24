@@ -12,7 +12,7 @@ const About = () => {
                   - Nice to meet you!
                 </span>
                 <h3 className="name font-extrabold text-[40px]">
-                  Robert Elisc
+                  Zain Ul Ebad
                 </h3>
                 <span className="job font-semibold text-[20px] text-dark-color">
                   <span className="cd-headline clip">
@@ -33,7 +33,7 @@ const About = () => {
               <div className="text w-full float-left mb-[44px]">
                 <p className="mb-[30px]">
                   Hello there! My name is{" "}
-                  <span className="text-yellow-color">Robert Elisc</span>. I am
+                  <span className="text-yellow-color">Zain Ul Ebad</span>. I am
                   a web designer &amp; developer, and I'm very passionate and
                   dedicated to my work.
                 </p>

@@ -19,7 +19,7 @@ const Sidebar = () => {
           <div className="name w-full float-left mt-[-19px]">
             <h3>
               <span>
-                Robert Elisc<span className="back">Robert Elisc</span>
+                Zain Ul Ebad<span className="back">Zain Ul Ebad</span>
               </span>
             </h3>
           </div>
@@ -76,7 +76,7 @@ const Sidebar = () => {
             </ul>
           </div>
           <div className="text py-0 px-[50px]">
-            <p>Copyright © 2023 Robert Elisc. All rights reserved.</p>
+            <p>Copyright © 2023 Zain Ul Ebad. All rights reserved.</p>
           </div>
         </div>
       </div>
