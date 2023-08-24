@@ -1,12 +1,15 @@
 import "./App.css";
-import Menu from "./components/Menu";
-import Home from "./components/Home";
+import Mobile from "./component/Mobile";
 
 function App() {
   return (
-    <div className="App">
-      <Menu />
-      <Home />
+    <div
+      class="elisc_tm_all_wrap w-full h-auto clear-both float-left relative"
+      data-magic-cursor="show"
+      data-enter="fadeInLeft"
+      data-exit=""
+    >
+      <Mobile />
     </div>
   );
 }
