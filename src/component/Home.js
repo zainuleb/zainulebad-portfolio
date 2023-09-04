@@ -61,14 +61,14 @@ const Home = () => {
                       zainulebadd@gmail.com
                     </a>
                   </li>
-                  <li className="pl-[15px]">
+                  {/* <li className="pl-[15px]">
                     <a
                       className="href_location text-[#130F49] font-semibold text-[18px]"
                       href="#/"
                     >
                       Overseas 2 Phase#8 Bahria Islamabad
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>

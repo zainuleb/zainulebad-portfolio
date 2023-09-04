@@ -3,10 +3,10 @@ import React from "react";
 const About = () => {
   return (
     <div className="elisc_tm_section" id="about">
-      <div className="elisc_tm_about w-full float-left pt-[130px]">
+      <div className="elisc_tm_about w-full float-left pt-[80px]">
         <div className="tm_content w-full max-w-[1250px] h-auto clear-both my-0 mx-auto py-0 px-[20px]">
           <div className="elisc_tm_biography w-full float-left flex mb-[40px]">
-            <div className="left w-[40%]">
+            {/* <div className="left w-[40%]">
               <div className="title w-full float-left mb-[40px]">
                 <span className="mini block uppercase font-medium mb-[12px]">
                   - Nice to meet you!
@@ -28,23 +28,32 @@ const About = () => {
               <div className="elisc_tm_button transition_link">
                 <a href="#portfolio">Got a project?</a>
               </div>
-            </div>
-            <div className="right w-[60%]">
-              <div className="text w-full float-left mb-[44px]">
+            </div> */}
+            <div className="right w-[70%]">
+              <div className="text w-full float-left mb-[44px] px-[50px]">
                 <p className="mb-[30px]">
-                  Hello there! My name is{" "}
-                  <span className="text-yellow-color">Zain Ul Ebad</span>. I am
-                  a web designer &amp; developer, and I'm very passionate and
-                  dedicated to my work.
+                  Hello there! My name is
+                  <span className="text-yellow-color"> Zain Ul Ebad</span>. I am
+                  a seasoned DevOps professional &amp; Solutions Architect with
+                  a deep-seated passion for system design and development.
                 </p>
                 <p>
-                  With 20 years experience as a professional a graphic designer,
-                  I have acquired the skills and knowledge necessary to make
-                  your project a success. I enjoy every step of the design
-                  process, from discussion and collaboration.
+                  I have a track record of creating and executing intricate
+                  software solutions for various clients, from start-ups to
+                  well-established enterprises. I excel in assessing client
+                  requirements, selecting suitable technologies, and designing
+                  systems that cater to both immediate and future needs.
+                </p>
+                <p>
+                  My experience includes creating robust, scalable, and
+                  cost-efficient systems, and I have extensive experience with
+                  <b> AWS and GCP</b> services, enhancing my DevOps skills.
+                  Additionally, I am proficient in web development technologies
+                  like Node Express, React.js, and Angular, as well as database
+                  management systems such as mySQL and MongoDB.
                 </p>
               </div>
-              <div className="info w-full float-left">
+              {/* <div className="info w-full float-left">
                 <ul>
                   <li className="mr-[40px] mb-[20px] inline-block">
                     <span className="block uppercase underline">Age</span>
@@ -68,21 +77,15 @@ const About = () => {
                       </a>
                     </span>
                   </li>
-                  {/* <li className="mr-[40px] mb-[20px] inline-block">
-                    <span className="block uppercase underline">Phone</span>
-                    <span className="block font-inter font-bold text-dark-color">
-                      <a href="tel:+77 022 444 05 05">+77 022 444 05 05</a>
-                    </span>
-                  </li> */}
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="elisc_tm_counter w-full float-left mb-[90px]">
             <ul className="ml-[-30px]">
               <li className="mb-[30px] float-left w-1/3 pl-[30px]">
                 <div className="list_inner w-full float-left relative text-center py-[60px] px-[20px] rounded-[4px] overflow-hidden bg-[#D3F4EC]">
-                  <h3 className="text-[40px] mb-[7px]">10+</h3>
+                  <h3 className="text-[40px] mb-[7px]">4+</h3>
                   <span className="font-medium font-karla uppercase">
                     Years of Experience
                   </span>
@@ -129,14 +132,12 @@ const About = () => {
                     <div className="short w-full float-left flex justify-between mb-[16px]">
                       <div className="job">
                         <span className="text-yellow-color font-medium inline-block mb-[4px]">
-                          -2018 - Present
+                          2023 - Present
                         </span>
-                        <h3 className="text-[20px]">Web Developer</h3>
+                        <h3 className="text-[20px]">DevOps Engineer</h3>
                       </div>
                       <div className="place">
-                        <span className="font-medium font-inter">
-                          -Envato Market
-                        </span>
+                        <span className="font-medium font-inter">- AIME</span>
                       </div>
                     </div>
                     <div className="text w-full float-left">
@@ -191,13 +192,13 @@ const About = () => {
                     <div className="short w-full float-left flex justify-between mb-[16px]">
                       <div className="job">
                         <span className="text-yellow-color font-medium inline-block mb-[4px]">
-                          -2016 - 2018
+                          2021 - 2022
                         </span>
-                        <h3 className="text-[20px]">Web Developer</h3>
+                        <h3 className="text-[20px]">React.js Developer</h3>
                       </div>
                       <div className="place">
                         <span className="font-medium font-inter">
-                          -ABC Studio
+                          -iPlex Pvt Ltd
                         </span>
                       </div>
                     </div>
@@ -253,75 +254,13 @@ const About = () => {
                     <div className="short w-full float-left flex justify-between mb-[16px]">
                       <div className="job">
                         <span className="text-yellow-color font-medium inline-block mb-[4px]">
-                          -2015 - 2016
+                          2020 - 2021
                         </span>
-                        <h3 className="text-[20px]">UX Designer</h3>
+                        <h3 className="text-[20px]">Web Developer</h3>
                       </div>
                       <div className="place">
                         <span className="font-medium font-inter">
-                          -Colorlib
-                        </span>
-                      </div>
-                    </div>
-                    <div className="text w-full float-left">
-                      <p className="opacity-[0.7]">
-                        Website development is the process of building,
-                        programming, coding and maintaining websites and web
-                        applications.
-                      </p>
-                    </div>
-                    <a
-                      className="elisc_tm_full_link absolute inset-0 z-[5]"
-                      href="#stuff"
-                    ></a>
-
-                    <div className="hidden_details">
-                      <div className="descriptions">
-                        <p>
-                          Elisc is a leading web design agency with an
-                          award-winning design team that creates innovative,
-                          effective websites that capture your brand, improve
-                          your conversion rates, and maximize your revenue to
-                          help grow your business and achieve your goals.
-                        </p>
-                        <p>
-                          In today’s digital world, your website is the first
-                          interaction consumers have with your business. That's
-                          why almost 95 percent of a user’s first impression
-                          relates to web design. It’s also why web design
-                          services can have an immense impact on your company’s
-                          bottom line.
-                        </p>
-                        <p>
-                          That’s why more companies are not only reevaluating
-                          their website’s design but also partnering with Elisc,
-                          the web design agency that’s driven more than $2.4
-                          billion in revenue for its clients. With over 50 web
-                          design awards under our belt, we're confident we can
-                          design a custom website that drives sales for your
-                          unique business.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li className="mb-[40px] pl-[30px] float-left w-1/2">
-                  <img
-                    className="popup_image"
-                    src="assets/img/experience/4.jpg"
-                    alt=""
-                  />
-                  <div className="list_inner w-full float-left clear-both bg-white rounded-[4px] px-[70px] py-[45px] relative">
-                    <div className="short w-full float-left flex justify-between mb-[16px]">
-                      <div className="job">
-                        <span className="text-yellow-color font-medium inline-block mb-[4px]">
-                          -2013 - 2015
-                        </span>
-                        <h3 className="text-[20px]">Freelancer</h3>
-                      </div>
-                      <div className="place">
-                        <span className="font-medium font-inter">
-                          -Vivaco Corp.
+                          -CyberDen
                         </span>
                       </div>
                     </div>
