@@ -33,9 +33,6 @@ const Home = () => {
                 </p>
               </div>
               <div className="buttons w-full float-left flex items-center mb-[150px]">
-                <div className="elisc_tm_button transition_link">
-                  <a href="#portfolio">Got a project?</a>
-                </div>
                 <div
                   className="elisc_tm_button transition_link"
                   data-style="border"
@@ -45,14 +42,6 @@ const Home = () => {
               </div>
               <div className="info w-full float-left">
                 <ul className="relative">
-                  {/* <li className="pl-[15px]">
-                    <a
-                      className="text-[#130F49] font-semibold text-[18px]"
-                      href="tel:+77 022 444 05 05"
-                    >
-                      +92
-                    </a>
-                  </li> */}
                   <li className="pl-[15px]">
                     <a
                       className="text-[#130F49] font-semibold text-[18px]"
@@ -61,14 +50,6 @@ const Home = () => {
                       zainulebadd@gmail.com
                     </a>
                   </li>
-                  {/* <li className="pl-[15px]">
-                    <a
-                      className="href_location text-[#130F49] font-semibold text-[18px]"
-                      href="#/"
-                    >
-                      Overseas 2 Phase#8 Bahria Islamabad
-                    </a>
-                  </li> */}
                 </ul>
               </div>
             </div>

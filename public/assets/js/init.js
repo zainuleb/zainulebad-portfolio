@@ -1,3 +1,9 @@
+/*
+ * Copyright (c) 2023 Marketify
+ * Author: Marketify
+ * This file is made for CURRENT TEMPLATE
+ */
+
 jQuery(document).ready(function () {
   "use strict";
 
@@ -22,10 +28,9 @@ jQuery(document).ready(function () {
   elisc_tm_down();
   elisc_tm_location();
 
-  jQuery(window).on("load", function () {
+  jQuery(window).load("body", function () {
     elisc_tm_my_load();
   });
-
   jQuery(window).on("resize", function () {
     elisc_tm_menu_closer();
   });
@@ -98,7 +103,7 @@ function elisc_tm_page_transition() {
     var href = element.attr("href");
     if (element.parent().hasClass("elisc_tm_button")) {
       jQuery('.menu .transition_link a[href="' + href + '"]').trigger("click");
-      hashtag();
+      // hashtag();
       return false;
     }
     var sectionID = jQuery(href);
@@ -234,7 +239,7 @@ function elisc_tm_service_popup() {
     modalBox
       .find(".descriptions")
       .prepend(
-        '<div class="top_image"><img src="assets/img/thumbs/iplex.png" alt="" /><div class="main" data-img-url="' +
+        '<div class="top_image"><img src="assets/img/thumbs/4-2.jpg" alt="" /><div class="main" data-img-url="' +
           elImage +
           '"></div></div>'
       );
@@ -322,7 +327,7 @@ function elisc_tm_modalbox_portfolio() {
     modalBox
       .find(".popup_details")
       .prepend(
-        '<div class="top_image"><img src="assets/img/thumbs/iplex.png" alt="" /><div class="main" data-img-url="' +
+        '<div class="top_image"><img src="assets/img/thumbs/4-2.jpg" alt="" /><div class="main" data-img-url="' +
           image +
           '"></div></div>'
       );

@@ -1,6 +1,27 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Contact = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+  const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevData) => ({ ...prevData, [name]: value }));
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    // Your AJAX call or any other logic can go here
+
+    // On success:
+    setSubmitted(true);
+  };
   return (
     <div className="elisc_tm_section" id="contact">
       <div className="elisc_tm_contact w-full min-h-[100vh] float-left bg-[#E9F9FF] pt-[120px]">
@@ -15,9 +36,9 @@ const Contact = () => {
               </div>
               <div className="text w-full float-left mt-[20px] mb-[40px]">
                 <p>
-                  I'm currently avaliable to take on new projects, so feel free
-                  to send me a message about anything that you want to run past
-                  me. You can contact anytime at 24/7
+                  Looking to revolutionize your tech game? Let's connect! I'm on
+                  the lookout for fresh ideas and collaborations. Reach out
+                  anytime – I'm here to innovate with you. 🌐🔍🤝
                 </p>
               </div>
               <div className="info w-full float-left">
@@ -52,10 +73,11 @@ const Contact = () => {
             <div className="right w-1/2 pl-[50px]">
               <div className="fields w-full float-left h-auto clear-both">
                 <form
-                  action="/"
                   method="post"
                   className="contact_form"
                   id="contact_form"
+                  data-email="zainulebadd@gmail.com"
+                  action="https://script.google.com/macros/s/AKfycbyhjo7Esm2TFf0EvsRUaXCb2-gS3CuRNEVkk5NK4UDf_izsUYVHqeRvo8wwB8ORICal/exec"
                 >
                   <div
                     className="returnmessage"
@@ -72,6 +94,8 @@ const Contact = () => {
                           type="text"
                           placeholder="Enter your name"
                           autocomplete="off"
+                          value={formData.name}
+                          onChange={handleInputChange}
                         />
                       </li>
                       <li className="w-full mb-[25px] float-left">
@@ -80,6 +104,8 @@ const Contact = () => {
                           type="text"
                           placeholder="Your email"
                           autocomplete="off"
+                          value={formData.email}
+                          onChange={handleInputChange}
                         />
                       </li>
                     </ul>
@@ -88,6 +114,8 @@ const Contact = () => {
                     <textarea
                       id="message"
                       placeholder="Write something..."
+                      value={formData.message}
+                      onChange={handleInputChange}
                     ></textarea>
                   </div>
                   <div className="elisc_tm_button">
