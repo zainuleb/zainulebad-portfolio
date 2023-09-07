@@ -52,31 +52,37 @@ const Sidebar = () => {
               <li className="mr-[3px] inline-block">
                 <a
                   className="w-[40px] h-[40px] inline-block relative rounded-full text-dark-color"
-                  href="#/"
+                  href="mailto:your.email@example.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  <i className="icon-facebook-1 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] text-[16px]"></i>
+                  <i className="fas fa-envelope absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] text-[16px]"></i>
                 </a>
               </li>
               <li className="mr-[3px] inline-block">
                 <a
                   className="w-[40px] h-[40px] inline-block relative rounded-full text-dark-color"
-                  href="#/"
+                  href="https://www.linkedin.com/in/zainuleb/" // LinkedIn's homepage URL
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  <i className="icon-twitter-1 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] text-[16px]"></i>
+                  <i className="fab fa-linkedin-in absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] text-[16px]"></i>
                 </a>
               </li>
               <li className="inline-block">
                 <a
                   className="w-[40px] h-[40px] inline-block relative rounded-full text-dark-color"
-                  href="#/"
+                  href="https://medium.com/@zainulebadd" // Medium's homepage URL
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  <i className="icon-linkedin-1 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] text-[16px]"></i>
+                  <i className="icon-medium absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] text-[16px]"></i>
                 </a>
               </li>
             </ul>
           </div>
           <div className="text py-0 px-[50px]">
-            <p>Copyright © 2023 Zain Ul Ebad. All rights reserved.</p>
+            <p>Copyright © Zain Ul Ebad</p>
           </div>
         </div>
       </div>
