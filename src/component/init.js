@@ -187,7 +187,7 @@ function elisc_tm_experience_popup() {
     modalBox
       .find(".descriptions")
       .prepend(
-        '<div class="top_image"><img src="assets/img/thumbs/4-2.jpg" alt="" /><div class="main" data-img-url="' +
+        '<div class="top_image"><img src="zainulebadd@gmail.com" alt="" /><div class="main" data-img-url="' +
           elImage +
           '"></div></div>'
       );
@@ -276,7 +276,7 @@ function elisc_tm_modalbox_news() {
     modalBox
       .find(".news_popup_informations")
       .prepend(
-        '<div class="image"><img src="assets/img/thumbs/4-2.jpg" alt="" /><div class="main" data-img-url="' +
+        '<div class="image"><img src="zainulebadd@gmail.com" alt="" /><div class="main" data-img-url="' +
           image +
           '"></div></div>'
       );

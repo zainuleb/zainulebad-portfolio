@@ -132,7 +132,7 @@ const About = () => {
                     <div className="short w-full float-left flex justify-between mb-[16px]">
                       <div className="job">
                         <span className="text-yellow-color font-medium inline-block mb-[4px]">
-                          2023 - Present
+                          &#160;2023 - Present
                         </span>
                         <h3 className="text-[20px]">DevOps Engineer</h3>
                       </div>
@@ -141,10 +141,15 @@ const About = () => {
                       </div>
                     </div>
                     <div className="text w-full float-left">
-                      <p className="opacity-[0.7]">
-                        Website development is the process of building,
-                        programming, coding and maintaining websites and web
-                        applications.
+                      <p className="opacity-[0.7] text-justify">
+                        I utilized a variety of AWS services to streamline
+                        operations, increase releases, and minimize downtime. I
+                        played a pivotal role in implementing Infrastructure as
+                        Code (IaC) using AWS Cloud Development Kit (CDK) which
+                        allowed us to swiftly set up the necessary
+                        infrastructure for Continuous Integration and Continuous
+                        Deployment (CI/CD) for multiple projects encompassing
+                        both front-end and back-end components.
                       </p>
                     </div>
                     <a
@@ -155,28 +160,44 @@ const About = () => {
                     <div className="hidden_details">
                       <div className="descriptions">
                         <p>
-                          Elisc is a leading web design agency with an
-                          award-winning design team that creates innovative,
-                          effective websites that capture your brand, improve
-                          your conversion rates, and maximize your revenue to
-                          help grow your business and achieve your goals.
+                          Implementing AWS Services: Extensively used various
+                          AWS services such as EC2 for virtual server hosting,
+                          S3 for scalable storage, RDS for managed relational
+                          databases, and Lambda for serverless computing, among
+                          others. Utilized Elastic Load Balancing and Auto
+                          Scaling to ensure high availability and fault
+                          tolerance of applications.
                         </p>
                         <p>
-                          In today’s digital world, your website is the first
-                          interaction consumers have with your business. That's
-                          why almost 95 percent of a user’s first impression
-                          relates to web design. It’s also why web design
-                          services can have an immense impact on your company’s
-                          bottom line.
+                          Increasing Release Frequency: Implemented a CI/CD
+                          pipeline using AWS CodePipeline, CodeBuild, and
+                          CodeDeploy which automated the software release
+                          process, thereby increasing the frequency of releases
+                          and enabling the development and operations teams to
+                          deliver changes more quickly and reliably.
                         </p>
                         <p>
-                          That’s why more companies are not only reevaluating
-                          their website’s design but also partnering with Elisc,
-                          the web design agency that’s driven more than $2.4
-                          billion in revenue for its clients. With over 50 web
-                          design awards under our belt, we're confident we can
-                          design a custom website that drives sales for your
-                          unique business.
+                          Reducing Downtime: Implemented blue/green deployments
+                          using AWS CodeDeploy and Route 53, which drastically
+                          reduced downtime during deployments by directing
+                          traffic between two identical environments running
+                          different versions of the application.
+                        </p>
+                        <p>
+                          Infrastructure as Code (IaC): Utilized AWS CDK to
+                          define cloud resources in a familiar programming
+                          language, which enabled the team to quickly spin up
+                          and manage the necessary infrastructure for CI/CD.
+                          This approach not only saved time but also ensured
+                          consistency and repeatability of the infrastructure
+                          setup.
+                        </p>
+                        <p>
+                          Monitoring and Optimization: Implemented CloudWatch
+                          for monitoring the AWS resources and the applications
+                          that run on AWS. Utilized CloudTrail for auditing and
+                          tracking user activity and API usage across the AWS
+                          infrastructure.
                         </p>
                       </div>
                     </div>
@@ -192,7 +213,7 @@ const About = () => {
                     <div className="short w-full float-left flex justify-between mb-[16px]">
                       <div className="job">
                         <span className="text-yellow-color font-medium inline-block mb-[4px]">
-                          2021 - 2022
+                          &#160;2021 - 2022
                         </span>
                         <h3 className="text-[20px]">React.js Developer</h3>
                       </div>
@@ -203,10 +224,15 @@ const About = () => {
                       </div>
                     </div>
                     <div className="text w-full float-left">
-                      <p className="opacity-[0.7]">
-                        Website development is the process of building,
-                        programming, coding and maintaining websites and web
-                        applications.
+                      <p className="opacity-[0.7] text-justify">
+                        I have extensive experience with React.js, essential for
+                        building user interfaces, and managing application state
+                        with Redux. My expertise also includes Angular, for
+                        building dynamic web applications, and Node Express, a
+                        flexible Node.js web application framework. I have
+                        developed numerous applications using React.js, Angular,
+                        and Node Express, creating robust and scalable
+                        architectures for both front-end and back-end.
                       </p>
                     </div>
                     <a
