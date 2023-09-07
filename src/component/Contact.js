@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import axios from "axios";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -6,22 +7,55 @@ const Contact = () => {
     email: "",
     message: "",
   });
+  // eslint-disable-next-line
   const [submitted, setSubmitted] = useState(false);
-  const [loading, setLoading] = useState(false);
+  const [emailValid, setEmailValid] = useState(true);
+
+  const validEmail = (email) => {
+    const re =
+      /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+    return re.test(email);
+  };
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({ ...prevData, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Your AJAX call or any other logic can go here
+    // Validate email
+    // if (formData.email && !validEmail(formData.email)) {
+    //   setEmailValid(false);
+    //   return;
+    // } else {
+    //   setEmailValid(true);
+    // }
+    const fields = Object.keys(formData);
+    const structuredData = {
+      ...formData,
+      formDataNameOrder: JSON.stringify(fields),
+      formGoogleSheetName: "tech", // Default sheet name (you can replace this with a prop or state)
+      formGoogleSendEmail: "zainulebadd@gmail.com", // No email by default (again, replace this as needed)
+    };
+    console.log(structuredData);
+    try {
+      const response = await axios.post(
+        "https://script.google.com/macros/s/AKfycbyhjo7Esm2TFf0EvsRUaXCb2-gS3CuRNEVkk5NK4UDf_izsUYVHqeRvo8wwB8ORICal/exec",
+        structuredData
+      );
 
-    // On success:
-    setSubmitted(true);
+      console.log(response);
+      if (response.status === 200) {
+        setSubmitted(true);
+      }
+    } catch (error) {
+      console.error("There was an error submitting the form:", error);
+      // Handle error feedback to the user if needed
+    }
   };
+
   return (
     <div className="elisc_tm_section" id="contact">
       <div className="elisc_tm_contact w-full min-h-[100vh] float-left bg-[#E9F9FF] pt-[120px]">
@@ -43,14 +77,6 @@ const Contact = () => {
               </div>
               <div className="info w-full float-left">
                 <ul>
-                  <li className="mb-[8px] w-full float-left">
-                    {/* <a
-                      className="text-dark-color font-semibold font-inter inline-block relative"
-                      href="tel:+77 022 444 05 05"
-                    >
-                      +77 022 444 05 05
-                    </a> */}
-                  </li>
                   <li className="mb-[8px] w-full float-left">
                     <a
                       className="text-dark-color font-semibold font-inter inline-block relative"
@@ -77,7 +103,7 @@ const Contact = () => {
                   className="contact_form"
                   id="contact_form"
                   data-email="zainulebadd@gmail.com"
-                  action="https://script.google.com/macros/s/AKfycbyhjo7Esm2TFf0EvsRUaXCb2-gS3CuRNEVkk5NK4UDf_izsUYVHqeRvo8wwB8ORICal/exec"
+                  onSubmit={handleSubmit} // <-- Add this line
                 >
                   <div
                     className="returnmessage"
@@ -93,7 +119,8 @@ const Contact = () => {
                           id="name"
                           type="text"
                           placeholder="Enter your name"
-                          autocomplete="off"
+                          autoComplete="off"
+                          name="name"
                           value={formData.name}
                           onChange={handleInputChange}
                         />
@@ -103,7 +130,8 @@ const Contact = () => {
                           id="email"
                           type="text"
                           placeholder="Your email"
-                          autocomplete="off"
+                          autoComplete="off"
+                          name="email"
                           value={formData.email}
                           onChange={handleInputChange}
                         />
@@ -114,23 +142,22 @@ const Contact = () => {
                     <textarea
                       id="message"
                       placeholder="Write something..."
+                      name="message"
                       value={formData.message}
                       onChange={handleInputChange}
                     ></textarea>
                   </div>
                   <div className="elisc_tm_button">
-                    <a id="send_message" href="#/">
-                      Submit now
-                    </a>
+                    <button type="submit">Submit now</button>
                   </div>
                 </form>
               </div>
             </div>
           </div>
 
-          <div classNameName="elisc_tm_map w-full float-left mt-[100px] mb-[120px]">
-            <div classNameName="mapouter">
-              <div classNameName="gmap_canvas">
+          {/* <div className="elisc_tm_map w-full float-left mt-[100px] mb-[120px]">
+            <div className="mapouter">
+              <div className="gmap_canvas">
                 <iframe
                   width="100%"
                   height="375"
@@ -140,31 +167,12 @@ const Contact = () => {
                   scrolling="no"
                   marginHeight="0"
                   marginWidth="0"
+                  title="address"
                 ></iframe>
-                <a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon"></a>
                 <br />
-                <style>
-                  {`
-                            .mapouter {
-                                position: relative;
-                                text-align: right;
-                                height: 375px;
-                                width: 100%;
-                            }
-                            .gmap_canvas {
-                                overflow: hidden;
-                                background: none!important;
-                                height: 375px;
-                                width: 100%;
-                            }
-                        `}
-                </style>
-                <a href="https://www.embedgooglemap.net">
-                  how to add google map
-                </a>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

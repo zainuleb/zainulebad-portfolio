@@ -291,7 +291,6 @@ const Portfolio = () => {
                   <img src="assets/img/partners/1.png" alt="" />
                   <a
                     className="elisc_tm_full_link absolute inset-0 z-5"
-                    a
                     href="#/"
                   ></a>
                 </div>
@@ -301,7 +300,6 @@ const Portfolio = () => {
                   <img src="assets/img/partners/2.png" alt="" />
                   <a
                     className="elisc_tm_full_link absolute inset-0 z-5"
-                    a
                     href="#/"
                   ></a>
                 </div>
@@ -311,7 +309,6 @@ const Portfolio = () => {
                   <img src="assets/img/partners/3.png" alt="" />
                   <a
                     className="elisc_tm_full_link absolute inset-0 z-5"
-                    a
                     href="#/"
                   ></a>
                 </div>
@@ -321,7 +318,6 @@ const Portfolio = () => {
                   <img src="assets/img/partners/4.png" alt="" />
                   <a
                     className="elisc_tm_full_link absolute inset-0 z-5"
-                    a
                     href="#/"
                   ></a>
                 </div>
@@ -331,7 +327,6 @@ const Portfolio = () => {
                   <img src="assets/img/partners/5.png" alt="" />
                   <a
                     className="elisc_tm_full_link absolute inset-0 z-5"
-                    a
                     href="#/"
                   ></a>
                 </div>
@@ -341,7 +336,6 @@ const Portfolio = () => {
                   <img src="assets/img/partners/6.png" alt="" />
                   <a
                     className="elisc_tm_full_link absolute inset-0 z-5"
-                    a
                     href="#/"
                   ></a>
                 </div>
@@ -351,7 +345,6 @@ const Portfolio = () => {
                   <img src="assets/img/partners/7.png" alt="" />
                   <a
                     className="elisc_tm_full_link absolute inset-0 z-5"
-                    a
                     href="#/"
                   ></a>
                 </div>
@@ -361,7 +354,6 @@ const Portfolio = () => {
                   <img src="assets/img/partners/8.png" alt="" />
                   <a
                     className="elisc_tm_full_link absolute inset-0 z-5"
-                    a
                     href="#/"
                   ></a>
                 </div>
