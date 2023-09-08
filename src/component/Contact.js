@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import axios from "axios";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -39,20 +38,23 @@ const Contact = () => {
       formGoogleSheetName: "tech", // Default sheet name (you can replace this with a prop or state)
       formGoogleSendEmail: "zainulebadd@gmail.com", // No email by default (again, replace this as needed)
     };
-    console.log(structuredData);
-    try {
-      const response = await axios.post(
-        "https://script.google.com/macros/s/AKfycbyhjo7Esm2TFf0EvsRUaXCb2-gS3CuRNEVkk5NK4UDf_izsUYVHqeRvo8wwB8ORICal/exec",
-        structuredData
-      );
 
-      console.log(response);
+    try {
+      const GOOGLE_SCRIPT_URL = process.env.REACT_APP_GOOGLE_SCRIPT_URL;
+      const response = fetch(GOOGLE_SCRIPT_URL, {
+        redirect: "follow",
+        method: "POST",
+        body: new URLSearchParams(structuredData).toString(),
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+        },
+      }).then((res) => console.log(res));
+
       if (response.status === 200) {
         setSubmitted(true);
       }
     } catch (error) {
       console.error("There was an error submitting the form:", error);
-      // Handle error feedback to the user if needed
     }
   };
 
