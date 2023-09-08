@@ -41,15 +41,15 @@ const Contact = () => {
 
     try {
       const GOOGLE_SCRIPT_URL = process.env.REACT_APP_GOOGLE_SCRIPT_URL;
-      const response = fetch(GOOGLE_SCRIPT_URL, {
+      const response = await fetch(GOOGLE_SCRIPT_URL, {
         redirect: "follow",
         method: "POST",
         body: new URLSearchParams(structuredData).toString(),
         headers: {
           "Content-Type": "application/x-www-form-urlencoded",
         },
-      }).then((res) => console.log(res));
-
+      });
+      console.log(response);
       if (response.status === 200) {
         setSubmitted(true);
       }
@@ -100,71 +100,81 @@ const Contact = () => {
             </div>
             <div className="right w-1/2 pl-[50px]">
               <div className="fields w-full float-left h-auto clear-both">
-                <form
-                  method="post"
-                  className="contact_form"
-                  id="contact_form"
-                  data-email="zainulebadd@gmail.com"
-                  onSubmit={handleSubmit} // <-- Add this line
-                >
-                  <div
-                    className="returnmessage"
-                    data-success="Your message has been received, We will contact you soon."
-                  ></div>
-                  <div className="empty_notice">
-                    <span>Please Fill Required Fields</span>
+                {submitted ? (
+                  <div className="elisc_tm_title w-full float-left text-center">
+                    <div className="ext-[30px] font-extrabold">
+                      <h4>
+                        Thank you for your response, I will get back asap.
+                      </h4>
+                    </div>
                   </div>
-                  <div className="first w-full float-left">
-                    <ul>
-                      <li className="w-full mb-[25px] float-left">
-                        <input
-                          id="name"
-                          type="text"
-                          placeholder="Enter your name"
-                          autoComplete="off"
-                          name="name"
-                          value={formData.name}
-                          onChange={handleInputChange}
-                        />
-                      </li>
-                      <li className="w-full mb-[25px] float-left">
-                        <input
-                          id="email"
-                          type="text"
-                          placeholder="Your email"
-                          autoComplete="off"
-                          name="email"
-                          value={formData.email}
-                          onChange={handleInputChange}
-                        />
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="last">
-                    <textarea
-                      id="message"
-                      placeholder="Write something..."
-                      name="message"
-                      value={formData.message}
-                      onChange={handleInputChange}
-                    ></textarea>
-                  </div>
-                  <div className="elisc_tm_button">
-                    <button type="submit">Submit now</button>
-                  </div>
-                </form>
+                ) : (
+                  <form
+                    method="post"
+                    className="contact_form"
+                    id="contact_form"
+                    data-email="zainulebadd@gmail.com"
+                    onSubmit={handleSubmit} // <-- Add this line
+                  >
+                    <div
+                      className="returnmessage"
+                      data-success="Your message has been received, We will contact you soon."
+                    ></div>
+                    <div className="empty_notice">
+                      <span>Please Fill Required Fields</span>
+                    </div>
+                    <div className="first w-full float-left">
+                      <ul>
+                        <li className="w-full mb-[25px] float-left">
+                          <input
+                            id="name"
+                            type="text"
+                            placeholder="Enter your name"
+                            autoComplete="off"
+                            name="name"
+                            value={formData.name}
+                            onChange={handleInputChange}
+                          />
+                        </li>
+                        <li className="w-full mb-[25px] float-left">
+                          <input
+                            id="email"
+                            type="text"
+                            placeholder="Your email"
+                            autoComplete="off"
+                            name="email"
+                            value={formData.email}
+                            onChange={handleInputChange}
+                          />
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="last">
+                      <textarea
+                        id="message"
+                        placeholder="Write something..."
+                        name="message"
+                        value={formData.message}
+                        onChange={handleInputChange}
+                      ></textarea>
+                    </div>
+                    <div className="elisc_tm_button">
+                      <button type="submit">Submit now</button>
+                    </div>
+                  </form>
+                )}
               </div>
             </div>
           </div>
 
-          {/* <div className="elisc_tm_map w-full float-left mt-[100px] mb-[120px]">
+          <div className="elisc_tm_map w-full float-left mt-[100px] mb-[120px]">
             <div className="mapouter">
               <div className="gmap_canvas">
                 <iframe
                   width="100%"
                   height="375"
                   id="gmap_canvas"
-                  src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4058.7312475941317!2d73.08360151348157!3d33.51296287994873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1694137157940!5m2!1sen!2s"
                   frameBorder="0"
                   scrolling="no"
                   marginHeight="0"
@@ -174,7 +184,7 @@ const Contact = () => {
                 <br />
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
