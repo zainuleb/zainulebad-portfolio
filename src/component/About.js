@@ -225,14 +225,12 @@ const About = () => {
                     </div>
                     <div className="text w-full float-left">
                       <p className="opacity-[0.7] text-justify">
-                        I have extensive experience with React.js, essential for
-                        building user interfaces, and managing application state
-                        with Redux. My expertise also includes Angular, for
-                        building dynamic web applications, and Node Express, a
-                        flexible Node.js web application framework. I have
-                        developed numerous applications using React.js, Angular,
-                        and Node Express, creating robust and scalable
-                        architectures for both front-end and back-end.
+                        At iPlex, I dove deeper into the world of cutting-edge
+                        web technologies, becoming particularly proficient in
+                        React, Redux, Node Express, and the latest versions of
+                        Angular (13+). These skills were not merely academic –
+                        they were rigorously applied to real-world projects that
+                        made a substantial difference.
                       </p>
                     </div>
                     <a
@@ -243,28 +241,19 @@ const About = () => {
                     <div className="hidden_details">
                       <div className="descriptions">
                         <p>
-                          Elisc is a leading web design agency with an
-                          award-winning design team that creates innovative,
-                          effective websites that capture your brand, improve
-                          your conversion rates, and maximize your revenue to
-                          help grow your business and achieve your goals.
+                          One of the pinnacle projects I contributed to was the
+                          creation of a state-of-the-art marketing platform
+                          named Finch Ecommerce. Designed with intricate
+                          frontend dynamics using Angular 13+ and backed by a
+                          robust backend built with SpringBoot.
                         </p>
                         <p>
-                          In today’s digital world, your website is the first
-                          interaction consumers have with your business. That's
-                          why almost 95 percent of a user’s first impression
-                          relates to web design. It’s also why web design
-                          services can have an immense impact on your company’s
-                          bottom line.
-                        </p>
-                        <p>
-                          That’s why more companies are not only reevaluating
-                          their website’s design but also partnering with Elisc,
-                          the web design agency that’s driven more than $2.4
-                          billion in revenue for its clients. With over 50 web
-                          design awards under our belt, we're confident we can
-                          design a custom website that drives sales for your
-                          unique business.
+                          Beyond Finch, I played a significant role in the
+                          development and enhancement of several other platforms
+                          at iPlex. This involved crafting fluid user interfaces
+                          with React and Redux and ensuring seamless data flow
+                          and operations, all tailored to deliver superior user
+                          experiences and operational efficiency.
                         </p>
                       </div>
                     </div>
@@ -292,9 +281,13 @@ const About = () => {
                     </div>
                     <div className="text w-full float-left">
                       <p className="opacity-[0.7]">
-                        Website development is the process of building,
-                        programming, coding and maintaining websites and web
-                        applications.
+                        At Cyberden, I embarked on my journey as an associate,
+                        distinguishing myself through my adeptness in
+                        JavaScript, particularly ES6, and mastery in frontend
+                        libraries such as Bootstrap, Material UI, and Tailwind.
+                        My skill set and commitment to excellence earned me a
+                        transition from an associate to a permanent role within
+                        the company.
                       </p>
                     </div>
                     <a
@@ -305,28 +298,14 @@ const About = () => {
                     <div className="hidden_details">
                       <div className="descriptions">
                         <p>
-                          Elisc is a leading web design agency with an
-                          award-winning design team that creates innovative,
-                          effective websites that capture your brand, improve
-                          your conversion rates, and maximize your revenue to
-                          help grow your business and achieve your goals.
-                        </p>
-                        <p>
-                          In today’s digital world, your website is the first
-                          interaction consumers have with your business. That's
-                          why almost 95 percent of a user’s first impression
-                          relates to web design. It’s also why web design
-                          services can have an immense impact on your company’s
-                          bottom line.
-                        </p>
-                        <p>
-                          That’s why more companies are not only reevaluating
-                          their website’s design but also partnering with Elisc,
-                          the web design agency that’s driven more than $2.4
-                          billion in revenue for its clients. With over 50 web
-                          design awards under our belt, we're confident we can
-                          design a custom website that drives sales for your
-                          unique business.
+                          Beyond my technical contributions, I was recognized
+                          for my innovation, dedication, and professional
+                          expertise. These qualities rendered me an invaluable
+                          member of the Cyberden team. As I venture into new
+                          opportunities, I fondly look back on a tenure that was
+                          marked by continuous learning, collaboration, and
+                          tangible achievements in the realm of frontend
+                          development.
                         </p>
                       </div>
                     </div>

@@ -274,7 +274,7 @@ const Portfolio = () => {
         </div>
       </div>
 
-      <div className="elisc_tm_partners w-full float-left mb-[120px] py-0 px-[20px]">
+      {/* <div className="elisc_tm_partners w-full float-left mb-[120px] py-0 px-[20px]">
         <div className="tm_content w-full max-w-[1250px] h-auto clear-both my-0 mx-auto py-0 px-[20px]">
           <div className="elisc_tm_title w-full float-left">
             <span className="w-full float-left font-medium uppercase inline-block mb-[12px]">
@@ -361,7 +361,7 @@ const Portfolio = () => {
             </ul>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="elisc_tm_testimonial_wrapper w-full float-left mb-[120px]">
         <div className="tm_content w-full max-w-[1250px] h-auto clear-both my-0 mx-auto py-0 px-[20px]">

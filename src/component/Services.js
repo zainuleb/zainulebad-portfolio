@@ -28,12 +28,14 @@ const Services = () => {
                       <span className="font-inter font-medium text-[20px] text-[rgba(19,15,73,.5)] inline-block mb-[15px]">
                         01
                       </span>
-                      <h3 className="text-[20px]">Web Design</h3>
+                      <h3 className="text-[20px]">
+                        Cloud Infrastructure Design
+                      </h3>
                     </div>
                     <div className="text w-full float-left mb-[25px]">
                       <p className="text-[#55527C] opacity-[0.7]">
-                        Web development is the process of building,
-                        programming...
+                        Cloud infrastructure design involves creating a
+                        blueprint for your IT environment based on...
                       </p>
                     </div>
                     <div className="elisc_tm_read_more">
@@ -57,29 +59,37 @@ const Services = () => {
                   <div className="hidden_details">
                     <div className="descriptions">
                       <p>
-                        Elisc is a leading web design agency with an
-                        award-winning design team that creates innovative,
-                        effective websites that capture your brand, improve your
-                        conversion rates, and maximize your revenue to help grow
-                        your business and achieve your goals.
+                        Cloud infrastructure design involves creating a
+                        blueprint for your IT environment based on cloud
+                        solutions. Leveraging the offerings of various cloud
+                        providers such as AWS, Azure, Google Cloud, and others,
+                        I tailor designs to meet the unique requirements of
+                        businesses.
                       </p>
-                      <p>
-                        In today’s digital world, your website is the first
-                        interaction consumers have with your business. That's
-                        why almost 95 percent of a user’s first impression
-                        relates to web design. It’s also why web design services
-                        can have an immense impact on your company’s bottom
-                        line.
-                      </p>
-                      <p>
-                        That’s why more companies are not only reevaluating
-                        their website’s design but also partnering with Elisc,
-                        the web design agency that’s driven more than $2.4
-                        billion in revenue for its clients. With over 50 web
-                        design awards under our belt, we're confident we can
-                        design a custom website that drives sales for your
-                        unique business.
-                      </p>
+                      <p>How This Can Help You:</p>
+                      <ul>
+                        <li>
+                          <b> Scalability</b>: Cloud providers like AWS offer
+                          services like EC2 for compute capacity that can scale
+                          up or down based on demand. This means businesses
+                          won’t overpay for capacity they don’t use.
+                        </li>
+                        <br />
+                        <li>
+                          <b>Flexibility</b>: Solutions like Azure's hybrid
+                          cloud allow businesses to keep sensitive data
+                          on-premises while taking advantage of cloud compute.
+                          This best-of-both-worlds approach offers flexibility
+                          in deployments.
+                        </li>
+                        <br />
+                        <li>
+                          <b> Innovation</b>: With Google Cloud's AI and machine
+                          learning solutions, businesses can leverage
+                          state-of-the-art technologies without the overhead of
+                          building them from scratch.
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>
@@ -96,12 +106,15 @@ const Services = () => {
                       <span className="font-inter font-medium text-[20px] text-[rgba(19,15,73,.5)] inline-block mb-[15px]">
                         02
                       </span>
-                      <h3 className="text-[20px]">UI/UX Design</h3>
+                      <h3 className="text-[20px]">
+                        Continuous Integration & Continuous Deployment (CI/CD)
+                        Implementation
+                      </h3>
                     </div>
                     <div className="text w-full float-left mb-[25px]">
                       <p className="text-[#55527C] opacity-[0.7]">
-                        Web development is the process of building,
-                        programming...
+                        CI/CD is a method to frequently deliver apps to
+                        customers by introducing...
                       </p>
                     </div>
                     <div className="elisc_tm_read_more">
@@ -125,29 +138,32 @@ const Services = () => {
                   <div className="hidden_details">
                     <div className="descriptions">
                       <p>
-                        Elisc is a leading web design agency with an
-                        award-winning design team that creates innovative,
-                        effective websites that capture your brand, improve your
-                        conversion rates, and maximize your revenue to help grow
-                        your business and achieve your goals.
+                        CI/CD is a method to frequently deliver apps to
+                        customers by introducing automation into the stages of
+                        app development. Using platforms like AWS CodePipeline,
+                        Azure DevOps, and Google Cloud Build, I help automate
+                        the build, test, and deploy phases.
                       </p>
-                      <p>
-                        In today’s digital world, your website is the first
-                        interaction consumers have with your business. That's
-                        why almost 95 percent of a user’s first impression
-                        relates to web design. It’s also why web design services
-                        can have an immense impact on your company’s bottom
-                        line.
-                      </p>
-                      <p>
-                        That’s why more companies are not only reevaluating
-                        their website’s design but also partnering with Elisc,
-                        the web design agency that’s driven more than $2.4
-                        billion in revenue for its clients. With over 50 web
-                        design awards under our belt, we're confident we can
-                        design a custom website that drives sales for your
-                        unique business.
-                      </p>
+                      <p>How This Can Help You:</p>
+                      <ul>
+                        <li>
+                          <b>Rapid Deployment</b>: Ensure faster time-to-market
+                          with automated pipelines that can release new
+                          features, fixes, and updates at any time.
+                        </li>
+                        <br />
+                        <li>
+                          <b>Quality Assurance</b>: With automated testing and
+                          deployment, businesses can maintain code quality and
+                          ensure bugs are caught early.
+                        </li>
+                        <br />
+                        <li>
+                          <b> Efficient Iteration</b>: Adjust, test, and
+                          implement feedback quickly, leading to more responsive
+                          product development.
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>
@@ -164,12 +180,14 @@ const Services = () => {
                       <span className="font-inter font-medium text-[20px] text-[rgba(19,15,73,.5)] inline-block mb-[15px]">
                         03
                       </span>
-                      <h3 className="text-[20px]">Mobile Application</h3>
+                      <h3 className="text-[20px]">
+                        Microservices & Containerization
+                      </h3>
                     </div>
                     <div className="text w-full float-left mb-[25px]">
                       <p className="text-[#55527C] opacity-[0.7]">
-                        Web development is the process of building,
-                        programming...
+                        Microservices involve developing software applications
+                        as a suite of small...
                       </p>
                     </div>
                     <div className="elisc_tm_read_more">
@@ -193,29 +211,32 @@ const Services = () => {
                   <div className="hidden_details">
                     <div className="descriptions">
                       <p>
-                        Elisc is a leading web design agency with an
-                        award-winning design team that creates innovative,
-                        effective websites that capture your brand, improve your
-                        conversion rates, and maximize your revenue to help grow
-                        your business and achieve your goals.
+                        Microservices involve developing software applications
+                        as a suite of small, independent services. Using tools
+                        and services like AWS ECS, Azure Kubernetes Service, and
+                        Google Kubernetes Engine, I can help deploy, manage, and
+                        scale containerized applications.
                       </p>
-                      <p>
-                        In today’s digital world, your website is the first
-                        interaction consumers have with your business. That's
-                        why almost 95 percent of a user’s first impression
-                        relates to web design. It’s also why web design services
-                        can have an immense impact on your company’s bottom
-                        line.
-                      </p>
-                      <p>
-                        That’s why more companies are not only reevaluating
-                        their website’s design but also partnering with Elisc,
-                        the web design agency that’s driven more than $2.4
-                        billion in revenue for its clients. With over 50 web
-                        design awards under our belt, we're confident we can
-                        design a custom website that drives sales for your
-                        unique business.
-                      </p>
+                      <p>How This Can Help You:</p>
+                      <ul>
+                        <li>
+                          <b>Scalability</b>: Microservices architecture allows
+                          parts of an application to scale independently, making
+                          it easier to manage growth.
+                        </li>
+                        <br />
+                        <li>
+                          <b>Reliability</b>: If one microservice fails, it
+                          doesn't take the whole app down. This leads to better
+                          uptime and reliability.
+                        </li>
+                        <br />
+                        <li>
+                          <b> Rapid Deployment</b>: Microservices paired with
+                          container orchestration tools can lead to faster, more
+                          efficient deployments.
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>
@@ -232,12 +253,14 @@ const Services = () => {
                       <span className="font-inter font-medium text-[20px] text-[rgba(19,15,73,.5)] inline-block mb-[15px]">
                         04
                       </span>
-                      <h3 className="text-[20px]">User Research</h3>
+                      <h3 className="text-[20px]">
+                        Infrastructure as Code (IaC)
+                      </h3>
                     </div>
                     <div className="text w-full float-left mb-[25px]">
                       <p className="text-[#55527C] opacity-[0.7]">
-                        Web development is the process of building,
-                        programming...
+                        Infrastructure as Code (IaC) is the practice of defining
+                        and provisioning cloud...
                       </p>
                     </div>
                     <div className="elisc_tm_read_more">
@@ -261,29 +284,33 @@ const Services = () => {
                   <div className="hidden_details">
                     <div className="descriptions">
                       <p>
-                        Elisc is a leading web design agency with an
-                        award-winning design team that creates innovative,
-                        effective websites that capture your brand, improve your
-                        conversion rates, and maximize your revenue to help grow
-                        your business and achieve your goals.
+                        Infrastructure as Code (IaC) is the practice of defining
+                        and provisioning cloud infrastructure through code. With
+                        tools such as AWS CloudFormation, Azure ARM Templates,
+                        and Google Cloud Deployment Manager, I can automate the
+                        setup, configuration, and deployment of infrastructure
+                        components.
                       </p>
-                      <p>
-                        In today’s digital world, your website is the first
-                        interaction consumers have with your business. That's
-                        why almost 95 percent of a user’s first impression
-                        relates to web design. It’s also why web design services
-                        can have an immense impact on your company’s bottom
-                        line.
-                      </p>
-                      <p>
-                        That’s why more companies are not only reevaluating
-                        their website’s design but also partnering with Elisc,
-                        the web design agency that’s driven more than $2.4
-                        billion in revenue for its clients. With over 50 web
-                        design awards under our belt, we're confident we can
-                        design a custom website that drives sales for your
-                        unique business.
-                      </p>
+                      <p>How This Can Help You:</p>
+                      <ul>
+                        <li>
+                          <b>Consistency</b>: Achieve uniform infrastructure
+                          deployments, reducing discrepancies between
+                          environments.
+                        </li>
+                        <br />
+                        <li>
+                          <b>Efficiency</b>: Achieve uniform infrastructure
+                          deployments, reducing discrepancies between
+                          environments.
+                        </li>
+                        <br />
+                        <li>
+                          <b> Version Control</b>: Keep track of changes,
+                          ensuring traceability and allowing for quick rollbacks
+                          if necessary.
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>
@@ -300,12 +327,14 @@ const Services = () => {
                       <span className="font-inter font-medium text-[20px] text-[rgba(19,15,73,.5)] inline-block mb-[15px]">
                         05
                       </span>
-                      <h3 className="text-[20px]">Animation</h3>
+                      <h3 className="text-[20px]">
+                        Application Modernization & Migration
+                      </h3>
                     </div>
                     <div className="text w-full float-left mb-[25px]">
                       <p className="text-[#55527C] opacity-[0.7]">
-                        Web development is the process of building,
-                        programming...
+                        This service focuses on transforming legacy applications
+                        into cloud-native structures...
                       </p>
                     </div>
                     <div className="elisc_tm_read_more">
@@ -329,29 +358,33 @@ const Services = () => {
                   <div className="hidden_details">
                     <div className="descriptions">
                       <p>
-                        Elisc is a leading web design agency with an
-                        award-winning design team that creates innovative,
-                        effective websites that capture your brand, improve your
-                        conversion rates, and maximize your revenue to help grow
-                        your business and achieve your goals.
+                        This service focuses on transforming legacy applications
+                        into cloud-native structures and migrating them to the
+                        cloud. Using tools like AWS Migration Hub, Azure
+                        Migrate, and Google Cloud's Migrate for Compute Engine,
+                        I streamline this complex process.
                       </p>
-                      <p>
-                        In today’s digital world, your website is the first
-                        interaction consumers have with your business. That's
-                        why almost 95 percent of a user’s first impression
-                        relates to web design. It’s also why web design services
-                        can have an immense impact on your company’s bottom
-                        line.
-                      </p>
-                      <p>
-                        That’s why more companies are not only reevaluating
-                        their website’s design but also partnering with Elisc,
-                        the web design agency that’s driven more than $2.4
-                        billion in revenue for its clients. With over 50 web
-                        design awards under our belt, we're confident we can
-                        design a custom website that drives sales for your
-                        unique business.
-                      </p>
+                      <p>How This Can Help You:</p>
+                      <ul>
+                        <li>
+                          <b>Performance Boost</b>: Legacy applications, when
+                          modernized, can benefit from the elasticity and
+                          scalability of the cloud, resulting in better
+                          performance.
+                        </li>
+                        <br />
+                        <li>
+                          <b>Cost Efficiency</b>: Transition from CapEx models
+                          with upfront infrastructure costs to OpEx models with
+                          pay-as-you-go cloud services.
+                        </li>
+                        <br />
+                        <li>
+                          <b>Future Readiness</b>: Ensure your applications are
+                          ready for future innovations and can integrate
+                          seamlessly with other cloud services.
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>
@@ -368,12 +401,12 @@ const Services = () => {
                       <span className="font-inter font-medium text-[20px] text-[rgba(19,15,73,.5)] inline-block mb-[15px]">
                         06
                       </span>
-                      <h3 className="text-[20px]">Game Development</h3>
+                      <h3 className="text-[20px]">Cloud Cost Optimization</h3>
                     </div>
                     <div className="text w-full float-left mb-[25px]">
                       <p className="text-[#55527C] opacity-[0.7]">
-                        Web development is the process of building,
-                        programming...
+                        Cloud cost optimization focuses on ensuring that
+                        resources are efficiently utilized...
                       </p>
                     </div>
                     <div className="elisc_tm_read_more">
@@ -397,29 +430,33 @@ const Services = () => {
                   <div className="hidden_details">
                     <div className="descriptions">
                       <p>
-                        Elisc is a leading web design agency with an
-                        award-winning design team that creates innovative,
-                        effective websites that capture your brand, improve your
-                        conversion rates, and maximize your revenue to help grow
-                        your business and achieve your goals.
+                        Cloud cost optimization focuses on ensuring that
+                        resources are efficiently utilized, eliminating wastage,
+                        and capitalizing on savings opportunities. With tools
+                        like AWS Cost Explorer, Azure Cost Management, and
+                        Google Cloud's Cost Management tools, I identify areas
+                        for cost reduction and optimization.
                       </p>
-                      <p>
-                        In today’s digital world, your website is the first
-                        interaction consumers have with your business. That's
-                        why almost 95 percent of a user’s first impression
-                        relates to web design. It’s also why web design services
-                        can have an immense impact on your company’s bottom
-                        line.
-                      </p>
-                      <p>
-                        That’s why more companies are not only reevaluating
-                        their website’s design but also partnering with Elisc,
-                        the web design agency that’s driven more than $2.4
-                        billion in revenue for its clients. With over 50 web
-                        design awards under our belt, we're confident we can
-                        design a custom website that drives sales for your
-                        unique business.
-                      </p>
+                      <p>How This Can Help You:</p>
+                      <ul>
+                        <li>
+                          <b>Budget Control</b>: Monitor and manage spending
+                          across all cloud services, preventing unexpected
+                          costs.
+                        </li>
+                        <br />
+                        <li>
+                          <b>Resource Efficiency</b>: Ensure you're only paying
+                          for what you use, and not for underutilized or
+                          redundant resources.
+                        </li>
+                        <br />
+                        <li>
+                          <b>Savings Recommendations</b>: Implement best
+                          practices and recommendations to optimize costs
+                          without compromising performance.
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>
