@@ -31,7 +31,7 @@ const Mobile = () => {
           <div className="wrapper">
             <div className="avatar w-[70px] h-[70px] relative float-right mb-[50px]">
               <div
-                className="image absolute inset-0 bg-no-repeat bg-cover bg-center"
+                className="image absolute inset-0 bg-no-repeat bg-cover bg-center max-width: 26% max-height: 23%;"
                 data-img-url="assets/img/about/1.png"
               ></div>
             </div>
