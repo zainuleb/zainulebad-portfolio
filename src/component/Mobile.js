@@ -32,7 +32,7 @@ const Mobile = () => {
             <div className="avatar w-[70px] h-[70px] relative float-right mb-[50px]">
               <div
                 className="image absolute inset-0 bg-no-repeat bg-cover bg-center"
-                data-img-url="assets/img/about/1.jpg"
+                data-img-url="assets/img/about/1.png"
               ></div>
             </div>
             <div className="menu_list w-full h-auto clear-both float-left mb-[50px]">
